@@ -1,11 +1,11 @@
 export const site = {
   name: "Chemistry Made Simple",
-  teacher: "[TEACHER_FULL_NAME]",
-  qualifications: "[QUALIFICATIONS]",
-  experience: "[YEARS_OF_EXPERIENCE]",
-  venue: "[SAFE_PUBLIC_LOCATION], Nugegoda",
-  whatsapp: "[WHATSAPP_NUMBER]",
-  phone: "[PHONE_NUMBER]",
+  teacher: "Hasanthi Shiromala",
+  qualifications: "MSc in Materials Science & Engineering, University of Moratuwa · Graduate Chemist, Institute of Chemistry Ceylon (IChemC)",
+  experience: "Over 10 years of teaching experience",
+  venue: "Nugegoda, Sri Lanka",
+  whatsapp: "94766414521",
+  phone: "0766 414 521",
   email: "[EMAIL_ADDRESS]",
   domain: "https://pavitramaduranga.github.io/chemistry-made-simple",
 };
@@ -29,7 +29,7 @@ export const programmes = [
 const common = [
   { title: "A lesson structure that makes progress visible", text: "Lessons move from explanation to guided examples, independent practice and careful review. Students are encouraged to explain their reasoning, not simply remember a final answer." },
   { title: "Exam preparation built into learning", text: "Relevant past-paper questions are used after concepts are understood. Answers are reviewed against the language, units, working and precision expected in Edexcel assessments." },
-  { title: "Class information", text: "Physical classes are held in Nugegoda. Final days, times, fees and venue details will be published once confirmed by the teacher.", bullets: ["Schedule: [CLASS_DAYS_AND_TIMES]", "Venue: [NUGEGODA_VENUE_DESCRIPTION]", "Fees: [CLASS_FEES_OR_CONTACT_FOR_FEES]"] },
+  { title: "Class information", text: "Physical classes are held in Nugegoda, with online classes also available. Contact the teacher to confirm the most suitable class, current schedule, venue details and fees.", bullets: ["Schedule: [CLASS_DAYS_AND_TIMES]", "Venue: [NUGEGODA_VENUE_DESCRIPTION]", "Fees: [CLASS_FEES_OR_CONTACT_FOR_FEES]"] },
 ];
 
 export const pages: Record<string, PageData> = {
@@ -66,14 +66,14 @@ export const pages: Record<string, PageData> = {
   "about-the-teacher": {
     title: "About the Teacher", eyebrow: "Specialist Edexcel Chemistry education",
     description: "Meet the Edexcel Chemistry teacher behind Chemistry Made Simple in Nugegoda, Sri Lanka.",
-    intro: "This page is ready for the teacher’s verified professional biography. No qualification or experience claim will be published until confirmed.",
-    sections: [{ title: site.teacher, text: `${site.qualifications} · ${site.experience}`, bullets: ["[TEACHING_EXPERIENCE]", "[AREAS_OF_CHEMISTRY_EXPERTISE]", "[TEACHING_PHILOSOPHY]"] }, { title: "A message to students and parents", text: "[Add a short, genuine message explaining how the teacher helps students understand difficult ideas and prepare responsibly for examinations.]" }], cta: "classes"
+    intro: "Hasanthi Shiromala is an experienced Chemistry educator who helps students build sound subject knowledge and approach examinations with confidence through clear explanations and structured guidance.",
+    sections: [{ title: site.teacher, text: `${site.qualifications} · ${site.experience}`, bullets: ["Over 10 years of Chemistry teaching experience", "MSc in Materials Science & Engineering — University of Moratuwa", "Graduate Chemist — Institute of Chemistry Ceylon (IChemC)"] }, { title: "A message to students and parents", text: "Chemistry becomes more manageable when difficult ideas are explained clearly and students are shown how to apply them. Lessons combine structured theory, guided practice and exam-focused preparation while encouraging students to understand the science behind each answer." }], cta: "classes"
   },
   "class-schedule": {
     title: "Edexcel Chemistry Class Schedule", eyebrow: "Nugegoda classes",
     description: "View the Edexcel IGCSE, AS, A2 and IAL Chemistry class schedule in Nugegoda.",
-    intro: "The timetable below is intentionally marked for confirmation. Contact the teacher to check current availability.",
-    sections: programmes.map(p => ({ title: p.label, text: "[CLASS_DAYS_AND_TIMES]", bullets: [`Venue: ${site.venue}`, "Type: Physical class", "Availability: Contact to confirm"] })), cta: "class availability"
+    intro: "Physical and online class schedules may change by programme. Contact Hasanthi Shiromala to confirm current availability.",
+    sections: programmes.map(p => ({ title: p.label, text: "[CLASS_DAYS_AND_TIMES]", bullets: [`Venue: ${site.venue}`, "Type: Physical class in Nugegoda; online options available", "Availability: Contact to confirm"] })), cta: "class availability"
   },
   "student-results-testimonials": {
     title: "Student Results & Testimonials", eyebrow: "Evidence, shared responsibly",
@@ -83,9 +83,9 @@ export const pages: Record<string, PageData> = {
   },
   "contact": {
     title: "Contact & Enrolment", eyebrow: "Ask about a class",
-    description: "Contact the teacher about Edexcel Chemistry classes in Nugegoda for IGCSE, AS, A2 and IAL students.",
-    intro: "Tell us the student’s level and the programme you are interested in. The teacher will confirm the suitable class, schedule, venue and fees.",
-    sections: [{ title: "Contact details", text: `WhatsApp: ${site.whatsapp}\nPhone: ${site.phone}\nEmail: ${site.email}` }, { title: "Helpful details to include", text: "Please share only what is needed for the enquiry.", bullets: ["Parent or student name", "Current grade and Edexcel programme", "Preferred class", "A short question or message"] }, { title: "Privacy", text: "Enquiry details should be used only to respond about classes. Read the privacy policy for the full template." }], cta: "enrolment"
+    description: "Contact Hasanthi Shiromala about physical Edexcel Chemistry classes in Nugegoda and available online classes for IGCSE, AS, A2 and IAL students.",
+    intro: "Share the student’s level and whether you prefer a Nugegoda physical class or an online class. Hasanthi will confirm the suitable programme, schedule, availability and fees.",
+    sections: [{ title: "Contact details", text: `WhatsApp: 0766 414 521\nPhone: ${site.phone}\nEmail: ${site.email}` }, { title: "Helpful details to include", text: "Please share only what is needed for the enquiry.", bullets: ["Parent or student name", "Current grade and Edexcel programme", "Preferred class", "A short question or message"] }, { title: "Privacy", text: "Enquiry details should be used only to respond about classes. Read the privacy policy for the full template." }], cta: "enrolment"
   },
   "privacy-policy": {
     title: "Privacy Policy", eyebrow: "Template pending teacher approval",
