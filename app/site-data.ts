@@ -7,7 +7,7 @@ export const site = {
   whatsapp: "[WHATSAPP_NUMBER]",
   phone: "[PHONE_NUMBER]",
   email: "[EMAIL_ADDRESS]",
-  domain: "https://[DOMAIN_NAME]",
+  domain: "https://pavitramaduranga.github.io/chemistry-made-simple",
 };
 
 export type PageData = {
